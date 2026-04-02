@@ -1,4 +1,3 @@
-#include <cmath>
 #include <matplot/matplot.h>
 
 #define E 2.71828182
