@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
 project(Sand)
 
+if (NOT DEFINED FOLDER)
+  message(FATAL_ERROR "You must specify -DFOLDER")
+endif()
+
 # set (CMAKE_CXX_STANDARD 11)
 # set (CMAKE_CXX_STANDARD_REQUIRED true)
 # set (CMAKE_BUILD_TYPE Debug)
@@ -20,6 +24,6 @@ project(Plots)
 
 add_subdirectory(matplotplusplus)
 
-add_executable(game main.cpp)
+add_executable(game ${FOLDER}/main.cpp)
 
 target_link_libraries(game PUBLIC matplot)

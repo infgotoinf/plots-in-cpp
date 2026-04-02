@@ -1,9 +1,9 @@
 [
 {
   "directory": "/home/inf/Programming/College/plots-in-cpp/build",
-  "command": "/nix/store/kbw2j1vag664b3sj3rjwz9v53cqx87sb-gcc-wrapper-15.2.0/bin/g++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/home/inf/Programming/College/plots-in-cpp/matplotplusplus/source -I/home/inf/Programming/College/plots-in-cpp/build/matplotplusplus/source/matplot -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0 -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0/backward -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed -isystem /nix/store/j8irrc0mpx029dw0rmadsjylg7h31ync-glibc-2.42-51-dev/include -o CMakeFiles/game.dir/main.cpp.o -c /home/inf/Programming/College/plots-in-cpp/main.cpp",
-  "file": "/home/inf/Programming/College/plots-in-cpp/main.cpp",
-  "output": "/home/inf/Programming/College/plots-in-cpp/build/CMakeFiles/game.dir/main.cpp.o"
+  "command": "/nix/store/kbw2j1vag664b3sj3rjwz9v53cqx87sb-gcc-wrapper-15.2.0/bin/g++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/home/inf/Programming/College/plots-in-cpp/matplotplusplus/source -I/home/inf/Programming/College/plots-in-cpp/build/matplotplusplus/source/matplot -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0 -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0/backward -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed -isystem /nix/store/j8irrc0mpx029dw0rmadsjylg7h31ync-glibc-2.42-51-dev/include -o CMakeFiles/game.dir/01/main.cpp.o -c /home/inf/Programming/College/plots-in-cpp/01/main.cpp",
+  "file": "/home/inf/Programming/College/plots-in-cpp/01/main.cpp",
+  "output": "/home/inf/Programming/College/plots-in-cpp/build/CMakeFiles/game.dir/01/main.cpp.o"
 },
 {
   "directory": "/home/inf/Programming/College/plots-in-cpp/build",

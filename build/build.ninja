@@ -44,12 +44,12 @@ cmake_ninja_workdir = /home/inf/Programming/College/plots-in-cpp/build/
 
 build cmake_object_order_depends_target_game: phony || cmake_object_order_depends_target_matplot cmake_object_order_depends_target_nodesoup
 
-build CMakeFiles/game.dir/main.cpp.o: CXX_COMPILER__game_unscanned_ /home/inf/Programming/College/plots-in-cpp/main.cpp || cmake_object_order_depends_target_game
+build CMakeFiles/game.dir/01/main.cpp.o: CXX_COMPILER__game_unscanned_ /home/inf/Programming/College/plots-in-cpp/01/main.cpp || cmake_object_order_depends_target_game
   DEFINES = -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX
-  DEP_FILE = CMakeFiles/game.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/game.dir/01/main.cpp.o.d
   INCLUDES = -I/home/inf/Programming/College/plots-in-cpp/matplotplusplus/source -I/home/inf/Programming/College/plots-in-cpp/build/matplotplusplus/source/matplot -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0 -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include/c++/15.2.0/backward -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/include -isystem /nix/store/sca0pf46jmxva40qahkcwys5c1lvk6n2-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed -isystem /nix/store/j8irrc0mpx029dw0rmadsjylg7h31ync-glibc-2.42-51-dev/include
   OBJECT_DIR = CMakeFiles/game.dir
-  OBJECT_FILE_DIR = CMakeFiles/game.dir
+  OBJECT_FILE_DIR = CMakeFiles/game.dir/01
 
 
 # =============================================================================
@@ -59,7 +59,7 @@ build CMakeFiles/game.dir/main.cpp.o: CXX_COMPILER__game_unscanned_ /home/inf/Pr
 #############################################
 # Link the executable game
 
-build game: CXX_EXECUTABLE_LINKER__game_ CMakeFiles/game.dir/main.cpp.o | matplotplusplus/source/matplot/libmatplot.a matplotplusplus/source/3rd_party/libnodesoup.a || matplotplusplus/source/3rd_party/libnodesoup.a matplotplusplus/source/matplot/libmatplot.a
+build game: CXX_EXECUTABLE_LINKER__game_ CMakeFiles/game.dir/01/main.cpp.o | matplotplusplus/source/matplot/libmatplot.a matplotplusplus/source/3rd_party/libnodesoup.a || matplotplusplus/source/3rd_party/libnodesoup.a matplotplusplus/source/matplot/libmatplot.a
   DEP_FILE = CMakeFiles/game.dir/link.d
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/game.dir/link.d
   LINK_LIBRARIES = matplotplusplus/source/matplot/libmatplot.a  matplotplusplus/source/3rd_party/libnodesoup.a
